@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url('https://i.pinimg.com/originals/4c/bf/1e/4cbf1ed832ace6f57dd04f8dab12e89a.jpg');
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    color:white;
+}
+
+.tieude{
+    display: flex;
+    background-color: red;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlink{
+    position: relative;
+    padding: 50px;
+    display: flex;
+}
+
+.navlink ul{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+ul ul{
+    display: none;
+}
+
+ul>li:hover>ul {
+    display:block; width:180px;
+    list-style:none; border-radius:3px;
+    box-shadow:0 0 1px gray; background-color: white;
+    text-align: left;
+}
+
+ul>li:hover>ul a{
+    color:orangered; text-decoration:none;
+    font-variant:small-caps; font-size:larger;
+    padding: 5px 0 5px ;
+    margin-bottom: 10px;
+}
+
+.yt{
+    display: flex;
+}
+
+.yt iframe{
+    flex: 50%;
+    height: 500px;
+}
+
+.tieudefb{
+    display: flex;
+    background-color: #0a82ed;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tieudetik{
+    display: flex;
+    background-color: #fe5375;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bang{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
